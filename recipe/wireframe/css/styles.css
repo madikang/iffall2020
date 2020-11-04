@@ -1,0 +1,72 @@
+body {
+    max-width: 960px;
+    min-width: 320px;
+    margin: auto;
+    font-family: futura-pt, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28pt;
+    font-weight: 700;
+    margin-top: 1.5em;
+}
+h2 {
+    font-size: 18pt;
+    font-weight: 400;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h3 {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+@media (min-width: 640px) {
+    .side {
+        width: 50%;
+    }
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+}
+
+@media (max-width: 640px) {
+    section {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
+
+.grid {
+    list-style: none;
+    padding-left: 0em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+li {
+    font-size: 13pt;
+    font-weight: 400;
+    text-align: left;
+    line-height: 2em;
+}
+
+
+h5 {
+    font-size: 12pt;
+    font-weight: 300;
+}
+
+.pic {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}

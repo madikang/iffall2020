@@ -1,0 +1,229 @@
+html {
+    background: #D5DCB7;
+}
+
+body {
+    margin: auto;
+}
+
+
+
+nav {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: -3em;
+    padding-right: 58px;
+    background-color: rgb(67, 82, 55);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 5;
+}
+
+nav > a {
+    color: white;
+    font-size: 14pt;
+    font-size: 2.5vw;
+    font-family: ivypresto-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a#bar:hover {
+    color: rgb(170, 129, 105);
+    
+}
+
+nav > a:nth-child(-n+4) {
+    padding-right: 30px;
+    
+}
+
+header {
+    font-family: ivypresto-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 105pt;
+    color: white;
+    padding-right: -48px;
+    padding-left: 75px;
+    padding-top: 70px;
+    background-color: rgb(67, 82, 55);
+}
+
+#text {
+    height: 100%;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+    line-height: 1.5em;
+    color: rgb(67, 82, 55);
+    display: block;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+
+.intro {
+    width: 30%;
+    margin-top: 6em;
+}
+
+.front {
+    display: block;
+    float: right;
+    position: absolute;
+    right: 80px;
+    top: 400px;
+    width: 100%;
+    height: 100%;
+    margin-left: 4em;
+}
+
+.current-page {
+    color: rgb(170, 129, 105);
+    text-decoration: underline;
+}
+
+.jp {
+    font-family: dnp-shuei-gothic-kin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23vw;
+    
+    z-index: 2;
+    color: white; 
+    line-height: 1.2em;
+    float: right;
+    padding-right: 1.2em;
+    padding-top: 0.25em;
+}
+
+.home.pic {
+    position: absolute;
+    width: 40vw;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+    float: right;
+    right: 0;
+}
+
+h1 {
+    margin-right: 80px;
+    font-family: ivypresto-display, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32pt;
+    color: rgb(170, 129, 105);
+}
+
+h2 {
+    font-family: ivypresto-display, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16pt;
+}
+
+section {
+    margin: 40px 80px 80px 80px;
+}
+
+.history {
+    
+}
+
+.hist {
+    height: auto;
+    /* margin-left: 80px; */
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.pic {
+    width: 42%;
+}
+
+.leaf {
+    width: 30%;
+}
+
+ul#text.list {
+    font-size: 12pt;
+}
+
+.grades {
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.grade.pic {
+    width: 30%;
+    float: left;
+    height: auto;
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.teaware {
+    margin-left: 90px;
+}
+
+p#source {
+    height: 100%;
+    font-family: ivypresto-display, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20pt;
+    line-height: 1.5em;
+    display: block;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+p#source > a {
+    text-decoration: none;
+    color: rgb(67, 82, 55);
+}
+
+p#source:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    header {
+        font-size: 20vw;
+    }
+    nav > a {
+        font-size: 13pt;
+    }
+    .history {
+        font-size: 13pt;
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .jp {
+        font-size: 23vw;
+    }
+    img {
+        width: 40vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    nav > a {
+        font-size: 19pt;
+    }
+    
+}

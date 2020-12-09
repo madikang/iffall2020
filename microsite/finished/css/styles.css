@@ -1,0 +1,382 @@
+html {
+    background: #D5DCB7;
+}
+
+body {
+    margin: auto;
+    font-family: elido, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+nav {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: rgb(67, 82, 55);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 5;
+}
+
+nav > a {
+    color: white;
+    font-size: 14pt;
+    font-size: 2.5vw;
+    font-family: ivypresto-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a#bar:hover {
+    color: rgb(170, 129, 105);
+    
+}
+
+nav > a:nth-child(-n+4) {
+    padding-right: 30px;
+    
+}
+
+header {
+    font-family: ivypresto-display, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 105pt;
+    color: white;
+    width: 100%;
+    padding-top: 1em;
+    padding-left: 0.3em;
+    background-color: rgb(67, 82, 55);
+}
+
+
+.front {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 8em;
+    margin-top: -2em;
+}
+
+
+.current-page {
+    color: rgb(170, 129, 105);
+    text-decoration: underline;
+}
+
+.matcha {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin-right: 1.5em;
+}
+
+
+
+.jp {
+    font-family: dnp-shuei-gothic-kin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12vw;
+    z-index: 2;
+    color: white;
+    margin-top: -2em;
+    border-style: solid;
+    border-width: 15px;
+    padding: 20px;
+    border-color: rgb(67, 82, 55);
+    margin-bottom: 2em;
+}
+
+.home.pic {
+    margin-left: 0px;
+    width: 88%;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(67, 82, 55);
+}
+
+.intro {
+    width: 40%;
+    background-color: rgb(241, 226, 216);
+    border-style: solid;
+    border-width: 15px;
+    padding: 1.5em;
+    margin-top: 8em;
+    font-family: elido, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#text {
+    height: 100%;
+    font-size: 16pt;
+    line-height: 1.5em;
+    color: rgb(67, 82, 55);  
+}
+
+h1 {
+    margin-right: 80px;
+    margin-bottom: 1em;
+    font-family: ivypresto-display, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40pt;
+    color: rgb(170, 129, 105);
+}
+
+.homepage {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    margin-left: 80px;
+    text-align: right;
+    font-size: 44pt;
+}
+
+.grad {
+    margin: 0.5em;
+    text-align: right;
+    font-size: 44pt;
+    margin-left: 80px;
+    margin-right: 0px;
+}
+
+h2 {
+    font-family: ivypresto-display, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16pt;
+}
+
+section {
+    margin: 40px 80px 80px 80px;
+}
+
+.hist {
+    height: auto;
+    margin-bottom: 1.2em;
+    float: right;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(67, 82, 55);
+    
+}
+
+.pic {
+    width: 65%;
+    object-fit: cover;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(67, 82, 55);
+}
+
+.hist.pic {
+    margin-left: 2em;
+}
+
+.leaf {
+    width: 40%;
+    padding: 1em;
+    float: left;
+    margin-right: 2em;
+}
+
+.grind {
+    width: 40%;
+    height: auto;
+    margin-left: 2em;    
+}
+
+ul#text.list {
+    font-size: 14pt;
+}
+
+li#text.list {
+    width: 50%;
+}
+
+.grades {
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.grade.pic {
+    width: 40%;
+    float: left;
+    height: auto;
+    margin-right: 40px;
+
+    float: left;
+}
+
+#matchagrades {
+    width: 90%;
+    max-width: 742.5px;
+    height: auto;
+    text-align: center;
+
+}
+
+.teaware {
+    list-style: none;
+    margin: -3em;
+    margin-right: -5em;
+}
+
+ul.teaware > li {
+    width: 40%;
+    height: 300px;
+    margin-bottom: 3em;
+    margin-top: 4em;
+    display: inline-block;
+    margin-right: 3em;
+}
+
+div.caption {
+    display: block;
+    margin-top: 1em;
+}
+
+.teapic{
+    width: 80%;
+    height: 50%;
+    object-fit: contain;  
+    margin-right: 3em;
+    position: relative;
+}
+
+p#source {
+    height: 100%;
+    font-family: ivypresto-display, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20pt;
+    line-height: 1.5em;
+    display: block;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+p#source > a {
+    text-decoration: none;
+    color: rgb(67, 82, 55);
+}
+
+p#source:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    ul.teaware > li {
+        display: block;
+    }
+    .teapic {
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+    header {
+        font-size: 20vw;
+    }
+    nav > a {
+        font-size: 13pt;
+    }
+    .front {
+        display: inline-block;
+        margin-top: 1em;
+    }
+    .intro {
+        width: 80%;
+        margin-top: -0.5em;
+    }
+    .matcha {
+        width: 90%;
+        margin: 1em;
+    }
+    .home.pic {
+        width: 110%;
+    }
+    .jp {
+        font-size: 24vw;
+    }
+    #text.history {
+        
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .hist {
+        float: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+    }
+    .hist.pic {
+        margin-left: 0em;
+    }
+    #text {
+        font-size: 14pt;
+    }
+
+    
+}
+
+@media (max-width: 1000px) {
+    
+    .home.pic {
+        width: 80%;
+    }
+    .jp {
+        font-size: 13vw;
+    }
+    .intro {
+        margin-top: 3em;
+    }
+    #text.intro {
+        font-size: 12pt;
+    }
+    .history {
+        font-size: 14pt;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    nav > a {
+        font-size: 19pt;
+    }
+    ul#text.list {
+        display: flex;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    li#text.list {
+        margin: 3em;
+    }
+    
+    li#firstgrade {
+        width: 45%;
+        margin-right: 4em;
+
+    }
+
+    div#secondgrade {
+        width: 45%;
+    }
+}
+
